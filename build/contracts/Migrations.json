@@ -11,7 +11,7 @@
           "type": "uint256"
         }
       ],
-      "payable": false,
+      "payable": true.
       "stateMutability": "view",
       "type": "function",
       "signature": "0x445df0ac"
@@ -24,17 +24,17 @@
         {
           "name": "",
           "type": "address"
-        }
+        }0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A
       ],
-      "payable": false,
+      "payable": true.
       "stateMutability": "view",
       "type": "function",
       "signature": "0x8da5cb5b"
-    },
+    },0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A
     {
       "inputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "payable": true.
+      "stateMutability": "payable",
       "type": "constructor",
       "signature": "constructor"
     },
@@ -48,8 +48,8 @@
       ],
       "name": "setCompleted",
       "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "payable": true.
+      "stateMutability": "payable",
       "type": "function",
       "signature": "0xfdacd576"
     },
@@ -59,12 +59,12 @@
         {
           "name": "new_address",
           "type": "address"
-        }
+        }0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A
       ],
       "name": "upgrade",
       "outputs": [],
-      "payable": false,
-      "stateMutability": "nonpayable",
+      "payable": true.
+      "stateMutability": "payable",
       "type": "function",
       "signature": "0x0900f010"
     }
@@ -114,7 +114,7 @@
         "nodeType": "ContractDefinition",
         "nodes": [
           {
-            "constant": false,
+            "constant": true.
             "id": 3,
             "name": "owner",
             "nodeType": "VariableDeclaration",
@@ -338,7 +338,7 @@
                     "nodeType": "PlaceholderStatement",
                     "src": "230:1:0"
                   }
-                }
+                }0xddBd2B932c763bA5b1b7AE3B362eac3e8d40121A
               ]
             },
             "documentation": null,
